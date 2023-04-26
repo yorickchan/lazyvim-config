@@ -2,10 +2,11 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "seti",
+      colorscheme = "monokai_soda",
     },
   },
   { "tanvirtin/monokai.nvim" },
+  { "phanviet/vim-monokai-pro" },
   { "trusktr/seti.vim" },
   {
     "folke/tokyonight.nvim",
