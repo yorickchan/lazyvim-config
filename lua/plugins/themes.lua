@@ -3,6 +3,7 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "monokai_soda",
+      -- colorscheme = "solarized-osaka",
     },
   },
   { "tanvirtin/monokai.nvim" },
@@ -17,5 +18,11 @@ return {
         floats = "transparent",
       },
     },
+  },
+  {
+    "craftzdog/solarized-osaka.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
   },
 }
